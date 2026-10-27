@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.qa-tools/
+qa-results/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local reference material and internal working notes
+/docs/
+*.md
+!/README.md
+/.agents/
+/.codex/
+/.submission-check/
+
+# Local-only environment values; publish the configuration template
+.env*
+!/.env.example
+
+# Developer workbenches and their diagnostic-only test
+/src/dev/
+/tests/socket-probe.test.mjs
+
+# Unused starter and superseded generated assets
+/public/favicon.svg
+/public/icons.svg
+/public/brand/logo-white.png
+/public/brand/mark-white.svg

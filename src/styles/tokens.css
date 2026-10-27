@@ -1,0 +1,82 @@
+:root {
+  /* Sampled reference palette; replace the fallback font when the real export arrives. */
+  --font-sans: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  --font-size-xs: .75rem;
+  --font-size-sm: .875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --line-height-body: 1.5;
+  --line-height-heading: 1.25;
+  --color-page: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f0f3f5;
+  --color-text: #20262e;
+  --color-text-muted: #667085;
+  --color-border: #d8dde3;
+  --color-input-border: #83909c;
+  --color-accent: #009490;
+  --color-accent-soft: #e6f4f3;
+  --color-action: #007d79;
+  --color-action-hover: #006b68;
+  --color-on-action: #ffffff;
+  --color-nav: #262c2d;
+  --color-nav-active: #526b6a;
+  --color-on-nav: #ffffff;
+  --color-nav-muted: #d0dcdc;
+  --color-focus: #176bd1;
+  --color-success: #16704b;
+  --color-success-soft: #eaf6ef;
+  --color-warning: #865807;
+  --color-warning-soft: #fff5dc;
+  --color-danger: #b42318;
+  --color-danger-soft: #fef0ee;
+  --movement-entry-bg: #86efac;
+  --movement-entry-text: #14532d;
+  --movement-exit-bg: #fca5a5;
+  --movement-exit-text: #7f1d1d;
+  --chart-primary: #267d80;
+  --chart-secondary: #5367a2;
+  --chart-fill: #dff1f1;
+  --chart-grid: #e4e8ed;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --radius-sm: .25rem;
+  --radius-md: .5rem;
+  --radius-lg: .75rem;
+  --radius-pill: 999px;
+  --shadow-popover: 0 8px 24px rgb(32 38 46 / 12%);
+  --shadow-card: 0 2px 8px rgb(25 57 56 / 3%);
+  --shadow-menu: 0 12px 36px rgb(21 49 48 / 16%), 0 2px 6px rgb(21 49 48 / 5%);
+  --color-accent-border: #9dcac7;
+  --control-height: 2.75rem;
+  --layout-sidebar: 16.5rem;
+  --layout-header: 4.25rem;
+  --layout-content: 90rem;
+  --duration-fast: 120ms;
+  --duration-normal: 180ms;
+  --ease-standard: cubic-bezier(.2, 0, 0, 1);
+  --z-header: 10;
+  --z-dialog: 30;
+  --z-popover: 80;
+  /* Compatibility aliases until the Vite starter screen is replaced. */
+  --text: var(--color-text-muted);
+  --text-h: var(--color-text);
+  --border: var(--color-border);
+  --accent: var(--color-action);
+  --social-bg: var(--color-surface-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --duration-fast: 0ms; --duration-normal: 0ms; }
+}

@@ -1,0 +1,37 @@
+{
+  "siteId": "<site-id>",
+  "fromUtc": 1793037600000,
+  "toUtc": 1793041200000,
+  "pageSize": 2,
+  "pageNumber": 166,
+  "totalRecords": 332,
+  "totalPages": 166,
+  "records": [
+    {
+      "personId": "<person-c>",
+      "personName": "Example Person C",
+      "gender": "male",
+      "zoneId": "<zone-c>",
+      "zoneName": "Example Zone C",
+      "severity": "high",
+      "entryUtc": 1793037609191,
+      "entryLocal": "26/10/2026 18:00:09",
+      "exitUtc": 1793039391776,
+      "exitLocal": "26/10/2026 18:29:51",
+      "dwellMinutes": 29.71
+    },
+    {
+      "personId": "<person-d>",
+      "personName": "Example Person D",
+      "gender": "male",
+      "zoneId": "<zone-d>",
+      "zoneName": "Example Zone D",
+      "severity": "low",
+      "entryUtc": 1793037603182,
+      "entryLocal": "26/10/2026 18:00:03",
+      "exitUtc": 1793039085282,
+      "exitLocal": "26/10/2026 18:24:45",
+      "dwellMinutes": 24.7
+    }
+  ]
+}

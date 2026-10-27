@@ -1,0 +1,16 @@
+[
+  {
+    "siteId": "<site-id>",
+    "name": "Example Site",
+    "city": "Example City",
+    "country": "Example Country",
+    "timezone": "Asia/Kolkata",
+    "zones": [
+      {
+        "zoneId": "<zone-id>",
+        "name": "Example Zone",
+        "securityLevel": "high"
+      }
+    ]
+  }
+]

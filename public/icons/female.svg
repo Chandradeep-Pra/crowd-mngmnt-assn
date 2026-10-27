@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 48">
+  <g id="female" fill="currentColor">
+    <circle cx="12" cy="5" r="4"/>
+    <path d="M9 12h6a3 3 0 0 1 2.9 2.2l3.5 12a1.5 1.5 0 0 1-2.9.8L16 18l4 15h-4v11a2 2 0 0 1-4 0V33h-1v11a2 2 0 0 1-4 0V33H4l4-15-2.5 9a1.5 1.5 0 0 1-2.9-.8l3.5-12A3 3 0 0 1 9 12Z"/>
+  </g>
+</svg>
